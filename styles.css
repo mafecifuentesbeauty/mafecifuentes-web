@@ -1,0 +1,501 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+#particles-js {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+  
+
+}
+
+
+
+.contenedor {
+  width: 90%;
+  max-width: 1200px;
+  background-size: cover;
+  background-image: url('../img/bg-header3.jpeg');
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  padding: 20px 30px;
+  position: relative;
+  z-index: 99;
+  opacity: .1;
+}
+
+.contenedor-titulos{
+  display: flex;
+  align-items: center;
+
+}
+
+
+.titulo-principal {
+
+  text-align: center;
+  background-color: #ffbcdb;
+  /* Cambia el color de fondo */
+  color: white;
+  /* Cambia el color del texto */
+  padding: 10px;
+  /* Agrega espacio alrededor del texto */
+  border-radius: 20px;
+  /* Redondea los bordes */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  /* Agrega una sombra */
+  font-size: 36px;
+  /* Aumenta el tamaño del texto */
+}
+
+.titulo-secundario {
+
+  text-align: center;
+  
+  background-color:  #ffbcdb;
+  /* Cambia el color de fondo */
+  color: white;
+  /* Cambia el color del texto */
+  padding: 10px;
+  /* Agrega espacio alrededor del texto */
+  border-radius: 15px;
+  /* Redondea los bordes */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  /* Agrega una sombra */
+  font-size: 24px;
+  /* Aumenta el tamaño del texto */
+
+}
+
+
+.logo {
+  width: 30%;
+
+
+}
+
+.contenedor-carrusel {
+
+  padding: 2em;
+  height: 80% !important;
+  padding-right: 5px;
+  padding-left: 5px;
+
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+.subtitulo-item-slider {
+  color: black;
+  font-weight: bold;
+  padding-bottom: 1em;
+}
+
+
+.texto-item-slider {
+  color: black;
+
+}
+
+
+/*
+.w-100 {
+    
+    width: 90%!important;
+}
+*/
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  font-size: 1.2em;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: background-color 0.3s, transform 0.3s
+}
+
+.navbar-light:hover .navbar-nav:hover .nav-link:hover {
+  background-color: #ffbcdb;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  color: black;
+  /* Cambio de color del texto */
+  transform: scale(1.1);
+  /* Efecto de escala al pasar el cursor */
+}
+
+.subtitulo-cuidado-cabello {
+  text-align: center;
+  padding-bottom: 1em;
+
+}
+
+/* Custom CSS to hide video controls */
+.custom-video {
+  appearance: none;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+/* Fixed/sticky icon bar */
+
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #ffbcdb;
+}
+
+.facebook {
+  background: #ffffff;
+  color: #969696 !important;
+}
+
+.twitter {
+  background: #ffffff;
+  color: #969696 !important;
+}
+
+.instagram {
+  background: #ffffff;
+  color: #969696 !important;
+}
+
+
+
+.youtube {
+  background: #ffffff;
+  color: #969696 !important;
+}
+
+
+.logo-inf-mini {
+
+  padding: 0.5em;
+  width: 30%;
+  height: 30%;
+
+}
+
+
+/**/
+
+/* Style the word list */
+.word-list {
+
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+
+}
+
+/* Hide all words by default */
+.word {
+
+  display: none;
+
+}
+
+
+.contenedor-imagen-cap {
+
+  padding-top: 3em;
+  padding-bottom: 1em;
+  border-radius: 15px;
+  border: 2px solid gray;
+  min-height: 520px;
+  min-width: 210px;
+
+
+
+}
+
+
+.contenedor-imagen-cap:hover {
+
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 1s ease;
+
+
+}
+
+
+.imagen-cap {
+
+  width: 100%;
+
+}
+
+
+.contenedor-productos-cap {
+
+  display: block;
+  padding: 4em;
+
+
+
+}
+
+.texto-inf-productos {
+  text-align: center;
+  padding-top: 1em;
+  font-weight: bolder;
+
+}
+
+.texto-precio-productos {
+  text-align: center;
+  padding-bottom: 1em;
+
+}
+
+.fila-productos {
+
+  padding-bottom: 2em;
+
+}
+
+.footer-custom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 10px;
+}
+
+
+.titulo-nosotros {
+  text-align: center;
+
+}
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+
+.titulo-valores-corporativos {
+  text-align: center;
+
+}
+
+.float2 {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 120px;
+  right: 40px;
+  background: linear-gradient(45deg, #ffb500, #fe7b00, #ff152e, #fd026e, #fc019f, #fc00d0, #fc00c1);
+  color: #FFF;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.my-float2 {
+  margin-top: 16px;
+}
+
+
+
+  /*FORMULARIO*/
+
+/*
+  .contenedor .form .form-header .form-title {
+    font-weight: normal;
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+    padding: 14px 0;
+    padding-bottom: 20px;
+}
+
+.contenedor .form {
+    background: #e089b2;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    padding: 5px 45px;
+    
+    padding-bottom: 40px;
+    border-radius: 3px;
+}
+
+.contenedor .form .form-label {
+    display: block;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+}
+
+.contenedor .form .form-input,
+.form-textarea {
+    background: white;
+    border: none;
+    outline: none;
+    width: 97%;
+    padding: 12px;
+    padding-right: 8px;
+    padding-left: 8px;
+    margin-bottom: 20px;
+    border-radius: 0px;
+    font-size: 14px;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contenedor .form .form-textarea {
+    resize: vertical;
+    max-height: 150px;
+    min-height: 50px;
+}
+
+.contenedor .form .btn-submit {
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    outline: none;
+    background: white;
+    font-size: 16px;
+    border: none;
+    color: black;
+    font-weight: bold;
+    padding: 15px 0;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.contenedor .form .btn-submit:hover {
+    background: rgb(0, 0, 0, .4);
+    color: white;
+}
+*/
+
+
+.form-container {
+  background: #e089b2;
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  padding: 5px 45px;
+  padding-bottom: 40px;
+  border-radius: 3px;
+}
+
+.form-title {
+  font-weight: normal;
+  font-family: sans-serif;
+  color: black;
+  text-align: center;
+  padding: 14px 0;
+  padding-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  position: relative;
+}
+
+.form-input,
+.form-textarea {
+  background: white;
+  border: none;
+  outline: none;
+  width: 97%;
+  padding: 12px;
+  padding-right: 8px;
+  padding-left: 8px;
+  margin-bottom: 20px;
+  border-radius: 0px;
+  font-size: 14px;
+  color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.form-textarea {
+  resize: vertical;
+  max-height: 150px;
+  min-height: 50px;
+}
+
+.submit-button {
+  width: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  outline: none;
+  background: white;
+  font-size: 16px;
+  border: none;
+  color: black;
+  font-weight: bold;
+  padding: 15px 0;
+  cursor: pointer;
+  transition: all .5s ease;
+}
+
+.submit-button:hover {
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+}
+
+
+
